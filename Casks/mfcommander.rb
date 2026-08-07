@@ -1,6 +1,6 @@
 cask "mfcommander" do
-  version "0.1.3"
-  sha256 "e956cb956edc01c26f986165b214330c0ec0edeb91b640946bdd03c01d6877f0"
+  version "0.1.4"
+  sha256 "dfd4223bcd117cff62926a8220b0331b0d225bfe2ad06562854cc2a11dbfb40b"
 
   url "https://github.com/mfsoft-dev/mfcommander-dist/releases/download/v#{version}/MFCommander-#{version}.dmg",
       verified: "github.com/mfsoft-dev/"
