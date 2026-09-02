@@ -1,12 +1,11 @@
 cask "mfcommander" do
-  version "0.2.5"
-  sha256 "4b3d0aef9351e8ad4e6b98b0d0da131be531a0988ac9362142431e82e43176f8"
+  version "0.2.6"
+  sha256 "b25e4e8d224ec7301c09498f1548c61b82c280a14065908bf9ec3861b22637fb"
 
-  url "https://github.com/mfsoft-dev/mfcommander-dist/releases/download/v#{version}/MFCommander-#{version}.dmg",
-      verified: "github.com/mfsoft-dev/"
+  url "https://github.com/mfsoft-dev/mfcommander-dist/releases/download/v#{version}/MFCommander-#{version}.dmg"
   name "MFCommander"
   desc "Native dual-pane file workspace for huge files and infrastructure"
-  homepage "https://www.mfsoft.dev/"
+  homepage "https://mfsoft.dev/"
 
   livecheck do
     url :url
